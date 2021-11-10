@@ -1,7 +1,9 @@
 # Create My Own Image Classifier
 
 Part 1 - Development Notebook
-| __ | __ |
+
+| Column | Description |
+| :--|:--|
 | Criteria | Specification |
 | Package Imports | All the necessary packages and modules are imported in the first cell of the notebook |
 | Training data augmentation | torchvision transforms are used to augment the training data with random scaling, rotations, mirroring, and/or cropping |
@@ -20,7 +22,9 @@ Part 1 - Development Notebook
 | Sanity Checking with matplotlib | A matplotlib figure is created displaying an image and its associated top 5 most probable classes with actual flower names |
 
 Part 2 - Command Line Application
-| __ | __ |
+
+| Column | Description |
+| :--|:--|
 | Criteria | Specification |
 | Training a network | train.py successfully trains a new network on a dataset of images |
 | Training validation log | The training loss, validation loss, and validation accuracy are printed out as a network trains |
