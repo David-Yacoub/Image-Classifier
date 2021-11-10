@@ -4,7 +4,6 @@ Part 1 - Development Notebook
 
 | Column | Description |
 | :--|:--|
-| Criteria | Specification |
 | Package Imports | All the necessary packages and modules are imported in the first cell of the notebook |
 | Training data augmentation | torchvision transforms are used to augment the training data with random scaling, rotations, mirroring, and/or cropping |
 | Data normalization | The training, validation, and testing data is appropriately cropped and normalized |
@@ -25,7 +24,6 @@ Part 2 - Command Line Application
 
 | Column | Description |
 | :--|:--|
-| Criteria | Specification |
 | Training a network | train.py successfully trains a new network on a dataset of images |
 | Training validation log | The training loss, validation loss, and validation accuracy are printed out as a network trains |
 | Model architecture | The training script allows users to choose from at least two different architectures available from torchvision.models |
