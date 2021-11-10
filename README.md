@@ -12,7 +12,7 @@ Part 1 - Development Notebook
 | Pretrained Network | A pretrained network such as VGG16 is loaded from torchvision.models and the parameters are frozen |
 | Feedforward Classifier | A new feedforward network is defined for use as a classifier using the features as input |
 | Training the network | The parameters of the feedforward classifier are appropriately trained, while the parameters of the feature network are left static |
-| Validation Loss and Accuracy	During training, the validation loss and accuracy are displayed |
+| Validation Loss and Accuracy | During training, the validation loss and accuracy are displayed |
 | Testing Accuracy | The network's accuracy is measured on the test data |
 | Saving the model | The trained model is saved as a checkpoint along with associated hyperparameters and the class_to_idx dictionary |
 | Loading checkpoints | There is a function that successfully loads a checkpoint and rebuilds the model |
