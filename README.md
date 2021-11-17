@@ -1,8 +1,9 @@
 # Create an Image Classifier to recognize different species of flowers
 
 Part 1 - Development Notebook
-| __ | __ |
-| Criteria | Specification |
+
+| Column | Description |
+| :--|:--|
 | Package Imports | All the necessary packages and modules are imported in the first cell of the notebook |
 | Training data augmentation | torchvision transforms are used to augment the training data with random scaling, rotations, mirroring, and/or cropping |
 | Data normalization | The training, validation, and testing data is appropriately cropped and normalized |
@@ -11,7 +12,7 @@ Part 1 - Development Notebook
 | Pretrained Network | A pretrained network such as VGG16 is loaded from torchvision.models and the parameters are frozen |
 | Feedforward Classifier | A new feedforward network is defined for use as a classifier using the features as input |
 | Training the network | The parameters of the feedforward classifier are appropriately trained, while the parameters of the feature network are left static |
-| Validation Loss and Accuracy	During training, the validation loss and accuracy are displayed |
+| Validation Loss and Accuracy | During training, the validation loss and accuracy are displayed |
 | Testing Accuracy | The network's accuracy is measured on the test data |
 | Saving the model | The trained model is saved as a checkpoint along with associated hyperparameters and the class_to_idx dictionary |
 | Loading checkpoints | There is a function that successfully loads a checkpoint and rebuilds the model |
@@ -20,8 +21,9 @@ Part 1 - Development Notebook
 | Sanity Checking with matplotlib | A matplotlib figure is created displaying an image and its associated top 5 most probable classes with actual flower names |
 
 Part 2 - Command Line Application
-| __ | __ |
-| Criteria | Specification |
+
+| Column | Description |
+| :--|:--|
 | Training a network | train.py successfully trains a new network on a dataset of images |
 | Training validation log | The training loss, validation loss, and validation accuracy are printed out as a network trains |
 | Model architecture | The training script allows users to choose from at least two different architectures available from torchvision.models |
