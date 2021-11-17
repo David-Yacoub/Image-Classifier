@@ -1,4 +1,4 @@
-# Create My Own Image Classifier
+# Create an Image Classifier to recognize different species of flowers
 
 Part 1 - Development Notebook
 | __ | __ |
