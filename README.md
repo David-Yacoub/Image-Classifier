@@ -33,3 +33,4 @@ Part 2 - Command Line Application
 | Top K classes | The predict.py script allows users to print out the top K classes along with associated probabilities |
 | Displaying class names | The predict.py script allows users to load a JSON file that maps the class values to other category names |
 | Predicting with GPU | The predict.py script allows users to use the GPU to calculate the predictions |
+ 
